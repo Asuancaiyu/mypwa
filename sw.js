@@ -4,7 +4,7 @@ var cacheList=[
     '/',
     'index.html',
     'main.css',
-    '/icon/icon.png'
+    'apple-icon-120x120.png'
 ]
 self.addEventListener('install',e =>{
     e.waitUntil(
