@@ -1,10 +1,10 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.1.0/workbox-sw.js");
 var cacheStorageKey = 'minimal-pwa-4'
 var cacheList=[
-    '/',
+    '/mypwa/',
     'index.html',
     'main.css',
-    'apple-icon-120x120.png'
+    '/mypwa/apple-icon-120x120.png'
 ]
 self.addEventListener('install',e =>{
     e.waitUntil(
